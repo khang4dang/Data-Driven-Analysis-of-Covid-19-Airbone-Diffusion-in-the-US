@@ -59,20 +59,25 @@ Where $n$ is the total no. of observations, $\widehat{{Y}_i}$ is the predicted v
 ## III. Results and Discussion
 
 ### 1. Exploratory Data Analysis
+
 The summary of the data is tabulate in Table 1.
-Table 1: Summary of variables
-TotalCases	AQI	Ozone	PM2.5	MeanTemp	PopDensity
-Min.: 14	Min.:  0.00	Min.:  0.0	Min.:  0.00	Min.:44.90	Min.:    0.6
-1st Qu.: 852	1st Qu.: 48.00	1st Qu.:164.0	1st Qu.:  0.00	1st Qu.:55.00	1st Qu.:   94.8
-Median: 3021	Median: 54.00	Median: 233.0	Median: 91.00	Median: 59.10	Median:  254.4
-Mean:  9435	Mean: 54.81	Mean: 205.4	Mean: 96.09	Mean: 61.24	Mean: 1113.9
-3rd Qu.:  9998	3rd Qu.: 61.00	3rd Qu.: 271.0	3rd Qu.: 146.00	3rd Qu.: 68.25	3rd Qu.:  741.5
-Max.: 280961	Max.: 169.00	Max.: 365.0	Max.: 365.00	Max.: 78.90	Max.: 69467.5
-The correlation between the variables are shown in the heatmap in Figure 1 which shows a moderate negative correlation between the measures of PM 2.5 and ozone. After a simple, first order linear model was fitted (Eq. 5) to the data and residuals were plotted against fitted value, it indicated there are violations about the normality and random distribution of residual assumptions, that called for a transformation of the response variable. 
 
-**Equation 5** $$Y=β_0+ β_1 x_1+β_2 x_2+ β_3 x_3+ β_4 x_4+ β_5 x_5$$
+**Table 1: Summary of variables**
 
-Using Boxcox method, we found the Boxcox transformation index (λ) value to be near zero, that indicated a log transformation of the Y variable. After transformation, the first order simple linear model was applied again and the trends in the residual’s vs fitted plot still showed a fanning out pattern, indicating the requirement to transform one of the predictor variables. From the scatterplot matrix after Y transformation, we found that Population Density measure needed a log transformation. When that transformation was performed and fitted to the linear model (Eq. 6) as before, the residuals had no pattern anymore. 
+| TotalCases    | AQI            | Ozone         | PM2.5.        | MeanTemp      | PopDensity    |
+|    :---:      |     :---:      |     :---:     |     :---:     |     :---:     |     :---:     |
+| Min.: 14      | Min.: 0.00     | Min.: 0.0     | Min.: 0.00    | Min.: 44.90   | Min.: 0.6     |
+| 1st Qu.: 852  | 1st Qu.: 48.00 | 1st Qu.: 164.0| 1st Qu.: 0.00 | 1st Qu.: 55.00| 1st Qu.: 94.8 |
+| Median: 3021  | Median: 54.00  | Median: 233.0 | Median: 91.00 | Median: 59.10 | Median: 254.4 |
+| Mean: 9435    | Mean: 54.81    | Mean: 205.4   | Mean: 96.09   | Mean: 61.24   | Mean: 1113.9  |
+| 3rd Qu.: 9998 | 3rd Qu.: 61.00 | 3rd Qu.: 271.0| 3rd Qu.: 146.0| 3rd Qu.: 68.25| 3rd Qu.: 741.5|
+| Max.: 280961  | Max.: 169.00   | Max.: 365.0   | Max.: 365.00  | Max.: 78.90   | Max.: 69467.5 |
+
+The correlation between the variables are shown in the heatmap in Figure 1 which shows a moderate negative correlation between the measures of PM 2.5 and ozone. After a simple, first order linear model was fitted (Equation 5) to the data and residuals were plotted against fitted value, it indicated there are violations about the normality and random distribution of residual assumptions, that called for a transformation of the response variable. 
+
+**Equation 5** $$Y=β_0+β_1x_1+β_2x_2+β_3x_3+β_4x_4+β_5x_5$$
+
+Using Boxcox method, we found the Boxcox transformation index $(λ)$ value to be near zero, that indicated a log transformation of the $Y$ variable. After transformation, the first order simple linear model was applied again and the trends in the residual’s vs fitted plot still showed a fanning out pattern, indicating the requirement to transform one of the predictor variables. From the scatterplot matrix after $Y$ transformation, we found that Population Density measure needed a log transformation. When that transformation was performed and fitted to the linear model (Equation 6) as before, the residuals had no pattern anymore. 
  
                Figure 1:  Correlation Heatmap		     Figure 2:  Histogram of Transformed Response
    	      
