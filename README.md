@@ -6,13 +6,13 @@ Since the states as a unit of analysis does not provide a clear understanding of
 Thus, for this project the dataset has following variables:
 
 Predictor Variables:
-1. The particulate matter (PM 2.5) concentration in each county in terms of days exceeding the set limit of PM 2.5 (12 μg/m3 as mandated by EPA in 2012) for 2019 - x_1
-2. Ozone concentration in terms of number of days per year exceeding the limits set for ozone (0.07 ppm as mandated by EPA in 2015) for 2019 - x_2
-3. 90th percentile Air Quality Index (AQI) which shows the average of 90 percent of daily AQI values during 2019 that were less than or equal to the 90th percentile value - x_3
-4. Average year to date temperature (in degree F) in each county during 2020 - x_4
-5. Average year to date wind speed (in MPH) in each county during 2020 - x_5
-6. Average year to date Relative Humidity (RH in percentage) in each county during 2020 - x_6
-7. The average county-level population density (in inhabitants/sq. mile) as per the census 2010 - x_7
+1. The particulate matter (PM 2.5) concentration in each county in terms of days exceeding the set limit of PM 2.5 (12 $μg/m^3$ as mandated by EPA in 2012) for 2019 - $x_1$
+2. Ozone concentration in terms of number of days per year exceeding the limits set for ozone (0.07 ppm as mandated by EPA in 2015) for 2019 - $x_2$
+3. 90th percentile Air Quality Index (AQI) which shows the average of 90 percent of daily AQI values during 2019 that were less than or equal to the 90th percentile value - $x_3$
+4. Average year to date temperature (in degree F) in each county during 2020 - $x_4$
+5. Average year to date wind speed (in MPH) in each county during 2020 - $x_5$
+6. Average year to date Relative Humidity (RH in percentage) in each county during 2020 - $x_6$
+7. The average county-level population density (in inhabitants/sq. mile) as per the census 2010 - $x_7$
 
 The outcome variable (Y) is the cumulative no. of confirmed COVID 19 positive cases in each county till 10/12/2020.
 
@@ -22,7 +22,7 @@ Now, the reason behind selecting air pollution data for the year 2019 is twofold
 The unit of analysis for this study is the Counties in the aforementioned 15 states of the US. Each observation includes information about the variables for a particular county in one of those states. Thus, every observation in the dataset are unique, and there are 447 such unique observations. All of these data are continuous variables. 
 
 ## 3. Data Cleaning
-The meteorological and air quality data are collected from land-based weather monitoring stations that does not necessarily generate data at county level. So, some counties in those states did not have any data for pollutant concentration and those counties were removed from the data set. Similarly, the year to date mean wind speed data was available for only 118 counties out of 447 and the year to date mean RH data was available for only 61 counties. Including these two predictors would have resulted in a loss of a large no. of observation. To avoid that, it was decided not to consider year to date average wind speed and year to date average RH as predictors (predictor variables x_5 and x_6) and x_7 (average population density) was now x_5. Thus, the final dataset for analysis was of 447 rows and 6 columns. 
+The meteorological and air quality data are collected from land-based weather monitoring stations that does not necessarily generate data at county level. So, some counties in those states did not have any data for pollutant concentration and those counties were removed from the data set. Similarly, the year to date mean wind speed data was available for only 118 counties out of 447 and the year to date mean RH data was available for only 61 counties. Including these two predictors would have resulted in a loss of a large no. of observation. To avoid that, it was decided not to consider year to date average wind speed and year to date average RH as predictors (predictor variables $x_5$ and $x_6$) and $x_7$ (average population density) was now $x_5$. Thus, the final dataset for analysis was of 447 rows and 6 columns. 
 
 ## 4. Regression Models
 Supervised statistical learning method, where a set of methods are used to formulate the rules that connect the predictor variables to the response variable, was used to analyze the data set. In Supervised learning methods, predictors have response variables associated with them for each observation. This is a learning process since the mechanism of how the dependent variable is changing as a function of the independent variables is being studied from within the data. A part of the data set (training set) was used to understand the relation between the dependent and independent variables by training regression models. These trained models were then used in the remainder of the data (test set) to predict the value of the response; and to compare them with the observed response, through quantification of the deviance between the two values. There are several statistical models that can be used to train the regression models, depending on the problem and the data type. The techniques used for this study are discussed in the subsequent sections.  
@@ -32,17 +32,20 @@ Linear Regression is a statistical method to explore the relationship between th
 
 Equation 1: $$\{Y}=\beta_0+\beta_1\{x}+\epsilon$$
 
-The intercept coefficient (β_0) is the approximated response (Y) when the predictor variable (x) is zero, and the slope coefficient (β_1) is the average effect of one-unit change in x on Y. ϵ is the error term that determines the distance of individual observations from the approximated regression line. But when the number of predictor variables are more than one, a linear relationship can still be established using a multi-dimensional space, where the meaning of coefficients associated with the independent variables are interpreted as the average effect on the dependent variable while keeping the other independent variables constant, as expressed in Equation 2, where there are p (x_1… x_p) predictors. 
+The intercept coefficient ($β_0$) is the approximated response ($Y$) when the predictor variable ($x$) is zero, and the slope coefficient ($β_1$) is the average effect of one-unit change in $x$ on $Y$. $ϵ$ is the error term that determines the distance of individual observations from the approximated regression line. But when the number of predictor variables are more than one, a linear relationship can still be established using a multi-dimensional space, where the meaning of coefficients associated with the independent variables are interpreted as the average effect on the dependent variable while keeping the other independent variables constant, as expressed in Equation 2, where there are $p(x_1…x_p)$ predictors. 
 
 Equation 2: $$\{Y}=\beta_0+\beta_1\{x}_1+\beta_2\{x}_2+⋯+\beta_p\{x}_p+\epsilon$$
 
 ### b. Generalized Additive Model
-Linear relationships are widely used simplified approximations that often result in poor inference and prediction as relationships are not always deducible simply to a multidimensional plane. The non-linearity associated with the relationships demands special attention when training regression models. Those non-linear relationships can be approximated using curves, splines, or step-functions, using polynomials of the predictor variables. Generalized Additive Model (GAM) is a special framework where the standard multiple linear models are extended to accommodate higher powers by allowing non-linear functions of each predictors, while maintaining additivity. Equation 3 represents a generic GAM where the linear component  β_j x_j is replaced by a non-linear function f_j (x_j )
-Equation 3			Y= β_0+f_1 (x_1 )+ f_2 (x_2 )+⋯+ f_p (x_p )+ ϵ  
- The functions that are applied to the predictors do not need to be same, i.e., f_1 can represent a polynomial of degree 4, while f_2 can represent smoothing splines. GAMs are significantly better at approximating the true relationships that the response has with individual predictors and providing a regression result that accounts for all of them. These added complications also make it difficult to interpret the results from GAMs, even though the functions include smoothing parameters that prevent the results from being too biased to the training set. GAMs do not estimate regression coefficients like MLR; instead the interpretation of the regression results is made from partial influence plot of smoothing functions and the predictive scores of the model. For more details on these methods, please chapters 3 and 7 of (James, G., Witten, D., Hastie, T., Tibshirani, 2013).
+Linear relationships are widely used simplified approximations that often result in poor inference and prediction as relationships are not always deducible simply to a multidimensional plane. The non-linearity associated with the relationships demands special attention when training regression models. Those non-linear relationships can be approximated using curves, splines, or step-functions, using polynomials of the predictor variables. Generalized Additive Model (GAM) is a special framework where the standard multiple linear models are extended to accommodate higher powers by allowing non-linear functions of each predictors, while maintaining additivity. Equation 3 represents a generic GAM where the linear component $β_jx_j$ is replaced by a non-linear function $f_j(x_j)$.
+
+Equation 3: $$\{Y}=\beta_0+\{f}_1({x}_1)+{f}_2({x}_2)+⋯+{f}_p({x}_p)+\epsilon$$
+
+The functions that are applied to the predictors do not need to be same, i.e., f_1 can represent a polynomial of degree 4, while f_2 can represent smoothing splines. GAMs are significantly better at approximating the true relationships that the response has with individual predictors and providing a regression result that accounts for all of them. These added complications also make it difficult to interpret the results from GAMs, even though the functions include smoothing parameters that prevent the results from being too biased to the training set. GAMs do not estimate regression coefficients like MLR; instead the interpretation of the regression results is made from partial influence plot of smoothing functions and the predictive scores of the model. For more details on these methods, please chapters 3 and 7 of (James, G., Witten, D., Hastie, T., Tibshirani, 2013).
 These models were evaluated using Leave One Out Cross-Validation (LOOCV) scores and their predictive ability were tested by calculating the mean square predictive error (MSPE), defined in Equation 4, when the models were used to predict the velocity values using the predictors from the test set. 		            
-Equation 4			MSPE=1/N  ∑_(I=1)^N ((Y_I ) ̂-Y_I )^2, 
-Where, n is the total no. of observation, (Y_i ) ̂ is the predicted velocity value for the i^th observation and Y_i is the observed velocity value of the i^th observation.
+Equation 4: $${MSPE}={1/N}\sum_{i=1}^N({({Y}_I) ̂}-{Y}_I)^2$$
+
+Where, $n$ is the total no. of observations, $(Y_i) ̂$ is the predicted velocity value for the $i^th$ observation and $Y_i$ is the observed velocity value of the $i^th$ observation.
 
 ## 5. Results and Discussion
 	Exploratory Data Analysis
