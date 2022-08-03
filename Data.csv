@@ -1,448 +1,448 @@
-State,County,Cases as of 10/12/2020,90th Percentile AQI,Days Ozone,Days PM2.5,Mean Temp,Wind Speed,Mean Relative Humidity,Population Density 2010
-California,Alameda,22126,63,175,162,62.6,8.3,,2043.6
-California,Amador,305,51,355,0,62.1,0,,64.1
-California,Butte,2975,67,231,133,64.4,0,,134.4
-California,Calaveras,262,58,322,35,62.6,0,,44.7
-California,Colusa,541,59,228,83,66.1,0,,18.6
-California,Contra Costa,17728,62,242,115,63.9,0,,1465.2
-California,Del Norte,161,43,0,248,55,0,,28.4
-California,El Dorado,1254,74,356,0,58,0,,106
-California,Fresno,29523,115,259,80,59.6,4.281,,156.2
-California,Glenn,626,55,277,68,64.8,0,,21.4
-California,Humboldt,522,40,272,50,57.3,0,,37.7
-California,Imperial,11689,93,210,79,78.4,0,,41.8
-California,Inyo,201,84,319,13,65.6,6.767,36.5,1.8
-California,Kern,32425,122,260,73,66.1,7.768,,103.3
-California,Kings,8106,105,190,103,67.5,3.717,,110.1
-California,Lake,633,41,356,3,61.3,0,,51.5
-California,Los Angeles,280961,136,197,124,64.9,0,,2419.6
-California,Madera,4689,84,260,66,60,0,,70.6
-California,Marin,6886,48,222,126,58.6,0,,485.1
-California,Mariposa,76,84,296,68,59.6,8.424,47.72,12.6
-California,Mendocino,946,47,229,120,58.4,0,,25.1
-California,Merced,9141,79,250,113,66.2,0,,132.2
-California,Mono,154,81,0,305,48.8,0,,4.7
-California,Monterey,10473,50,288,61,61.7,0,,126.5
-California,Napa,1819,49,265,96,63.2,0,,182.4
-California,Nevada,570,71,326,35,56.5,0,,103.1
-California,Orange,55373,87,262,83,66.4,0,,3807.7
-California,Placer,3808,77,307,54,57.8,0,,247.6
-California,Plumas,51,68,0,341,51.6,0,,7.8
-California,Riverside,62279,147,247,70,72.4,4.361,35.6,303.8
-California,Sacramento,23807,84,240,116,66.6,0,,1470.8
-California,San Benito,1376,51,347,11,62.3,3.97,68.83,39.8
-California,San Bernardino,57235,169,246,96,71.1,8.101,37.6,101.5
-California,San Diego,50748,93,176,184,65.9,0,,735.8
-California,San Francisco,11659,52,172,165,59.1,0,,17179.1
-California,San Joaquin,20701,81,233,113,66.6,0,,492.6
-California,San Luis Obispo,3874,74,282,45,62.6,5.754,,81.7
-California,San Mateo,10262,51,209,135,59.3,0,,1602.2
-California,Santa Barbara,9462,59,295,57,61.2,3.959,68.8,155
-California,Santa Clara,22578,66,218,139,61.6,5.823,67.37,1381
-California,Santa Cruz,2590,46,262,103,60,0,,589.4
-California,Shasta,1515,54,352,10,59.7,2.014,69.45,46.9
-California,Siskiyou,162,49,262,103,53.3,0,,7.2
-California,Solano,6472,59,224,139,64.9,0,,503
-California,Sonoma,8377,45,265,90,60.2,0,,307.1
-California,Stanislaus,17051,91,245,107,65.8,0,,344.2
-California,Sutter,1741,71,249,109,67.4,0,,157.3
-California,Tehama,708,64,323,41,63.1,0,,21.5
-California,Trinity,19,49,0,266,56.8,0,,4.3
-California,Tulare,16742,122,242,98,57.9,4.523,63.03,91.7
-California,Tuolumne,234,67,358,0,54.3,0,,24.9
-California,Ventura,13617,77,284,65,60.6,4.477,57.9,446.7
-California,Yolo,2964,61,279,82,66.1,0,,197.9
-Connecticut,Fairfield,20261,77,186,169,55.9,0,,1116.3
-Connecticut,Hartford,15240,55,240,98,54.9,0,,1195.5
-Connecticut,Litchfield,1861,48,339,26,52.5,0,,198.5
-Connecticut,Middlesex,1643,61,205,0,55.2,0,,377
-Connecticut,New Haven,14691,67,247,99,55.3,0,,1001.3
-Connecticut,New London,2821,52,200,164,55,0,,355.2
-Connecticut,Tolland,1423,54,212,0,53.9,0,,365.1
-Connecticut,Windham,1161,46,360,0,54,0,,226.1
-Florida,Alachua,8968,50,273,91,73.4,0,,282.7
-Florida,Baker,1624,48,361,0,72,0,,46.3
-Florida,Bay,6202,54,235,122,72.7,0,,222.6
-Florida,Brevard,9968,46,306,45,75.6,0,,535
-Florida,Broward,78916,54,165,187,78.3,0,,1444.9
-Florida,Citrus,2948,48,0,353,74.9,0,,242.8
-Florida,Collier,13186,50,197,165,77.5,0,,160.9
-Florida,Columbia,4008,58,207,156,71.7,0,,84.7
-Florida,Duval,31770,64,174,187,73.2,0,,1133.9
-Florida,Escambia,11495,57,271,94,71.3,0,,453.4
-Florida,Flagler,1869,45,270,0,74.8,0,,197.1
-Florida,Hamilton,879,51,0,316,71,0,,28.8
-Florida,Highlands,2364,46,233,0,76.1,0,,97.2
-Florida,Hillsborough,44223,64,211,150,76.5,0,,1204.9
-Florida,Holmes,785,56,203,159,71.6,0,,41.6
-Florida,Indian River,3425,47,335,0,75.9,0,,274.5
-Florida,Lake,7920,50,330,0,75.6,0,,316.6
-Florida,Lee,21107,51,251,110,77.4,0,,788.7
-Florida,Leon,11025,58,168,192,71.9,0,,413.1
-Florida,Liberty,520,45,351,0,72.2,0,,10
-Florida,Manatee,12098,49,365,0,76.2,0,,434.5
-Florida,Marion,10179,54,236,129,74.4,0,,209.1
-Florida,Martin,5055,49,235,117,77.2,0,,269.2
-Florida,Miami-Dade,174641,52,150,186,78.9,7.814,79.46,1315.5
-Florida,Nassau,2121,46,0,254,72.5,0,,113
-Florida,Okaloosa,5408,48,342,0,71.1,0,,194.4
-Florida,Orange,41943,51,300,58,75.9,0,,1268.5
-Florida,Osceola,13121,48,364,0,76,0,,202.4
-Florida,Palm Beach,47756,51,218,137,77.7,0,,670.2
-Florida,Pasco,9874,49,365,0,75.9,0,,622.2
-Florida,Pinellas,23204,59,213,148,76.8,0,,3347.5
-Florida,Polk,21189,54,248,115,76.3,0,,334.9
-Florida,Putnam,2212,29,0,0,74.7,0,,102.2
-Florida,Santa Rosa,5529,57,241,123,70.7,0,,149.6
-Florida,Sarasota,8655,52,246,119,76.4,0,,682.6
-Florida,Seminole,9461,52,297,67,75.7,0,,1367
-Florida,St. Lucie,8386,46,352,0,76.4,0,,485.7
-Florida,Volusia,11503,50,241,109,75,0,,449.2
-Florida,Wakulla,1193,54,257,103,72.4,0,,50.8
-Georgia,Bibb,6335,61,158,204,68.5,3.878,,622.88
-Georgia,Charlton,645,36,0,43,71.8,0,,15.7
-Georgia,Chatham,8927,56,146,161,71.6,4.546,73.8,621.7
-Georgia,Chattooga,844,48,244,0,64.6,0,,83
-Georgia,Clarke,5399,61,136,229,64,0,,979.1
-Georgia,Clayton,7569,54,0,119,64.7,0,,1832.5
-Georgia,Cobb,20697,60,210,72,64.9,0,,2026.4
-Georgia,Coffee,2151,52,0,121,70.7,0,,73.7
-Georgia,Columbia,4015,49,245,0,67.9,2.463,74.07,427.6
-Georgia,Dawson,860,48,244,0,61.8,5.662,,105.9
-Georgia,DeKalb,19797,64,156,175,65.3,1.554,77.35,2585.7
-Georgia,Dougherty,32273,63,0,356,70.8,0,,287.7
-Georgia,Douglas,3864,58,245,0,65.3,6.272,,661.8
-Georgia,Floyd,3461,62,0,360,64.9,4.005,,188.9
-Georgia,Fulton,29274,74,130,214,65.2,3.084,,1748
-Georgia,Glynn,3572,50,224,55,71.6,4.039,,189.7
-Georgia,Gwinnett,29015,69,152,203,64.2,0,,1871.2
-Georgia,Hall,10028,57,0,340,63.4,0,,457.5
-Georgia,Henry,5699,59,166,197,66.2,0,,633
-Georgia,Houston,3323,61,0,354,69.1,0,,372.5
-Georgia,Lowndes,4151,55,0,309,70.1,0,,220.2
-Georgia,Murray,896,54,240,10,63.4,7.94,78.26,115
-Georgia,Muscogee,6218,58,149,215,67.9,2.186,75.96,877.5
-Georgia,Pike,367,58,353,0,66.8,0,,82.7
-Georgia,Richmond,7549,64,127,203,69,2.796,74.28,618.4
-Georgia,Rockdale,1965,67,241,0,65.7,1.623,78.57,656.5
-Georgia,Sumter,949,54,238,0,69.2,0,,68
-Georgia,Walker,1679,57,0,356,64.2,0,,154
-Georgia,Washington,710,54,0,211,68.1,0,,31.2
-Illinois,Adams,1432,54,241,0,56.1,0,,78.5
-Illinois,Champaign,5434,61,235,130,55.6,0,,201.8
-Illinois,Clark,234,47,327,0,57.2,5.075,80.53,32.6
-Illinois,Cook,71086,76,91,238,54.7,7.376,75.14,5495.1
-Illinois,DuPage,19640,61,172,180,54.3,0,,2799.8
-Illinois,Effingham,995,50,245,0,57.6,0,,71.5
-Illinois,Hamilton,91,58,198,146,59.8,0,,19.5
-Illinois,Jersey,431,58,207,140,58.3,0,,62.2
-Illinois,Jo Daviess,369,47,363,0,52.4,0,,37.7
-Illinois,Kane,14436,63,226,58,53.3,0,,990.8
-Illinois,La Salle,2004,4,0,0,54.3,0,,100.4
-Illinois,Lake,18521,58,245,0,53.3,0,,1585.6
-Illinois,Macon,2115,61,148,187,56.5,8.631,,190.8
-Illinois,Macoupin,654,47,245,0,57.4,0,,55.4
-Illinois,Madison,6426,71,186,174,58.8,0,,376.3
-Illinois,McHenry,5202,61,142,198,52.9,0,,511.9
-Illinois,McLean,3712,61,174,190,55.4,0,,143.3
-Illinois,Monroe,808,6,0,0,60.2,0,,85.6
-Illinois,Peoria,3985,58,203,161,55.5,0,,301.2
-Illinois,Randolph,1069,54,209,115,59.9,0,,58.2
-Illinois,Rock Island,3411,59,186,175,54.4,0,,345
-Illinois,Saint Clair,7294,60,169,133,59.7,0,,410.6
-Illinois,Sangamon,3052,58,183,177,56.5,0,,227.4
-Illinois,Tazewell,2164,9,0,0,56.1,0,,208.6
-Illinois,Wabash,185,10,0,0,59.6,5.455,,53.5
-Illinois,Will,15766,62,140,225,54.7,0,,809.6
-Illinois,Winnebago,8063,61,147,194,53,0,,575.2
-Louisiana,Ascension,3882,54,354,0,72.6,3.867,,369.7
-Louisiana,Bossier,3674,50,223,125,68.9,0,,139.3
-Louisiana,Caddo,9329,55,278,78,68.9,0,,290.2
-Louisiana,Calcasieu,8068,63,133,227,72.2,0,,181.2
-Louisiana,East Baton Rouge,15512,68,177,179,72,4.304,73.88,966.6
-Louisiana,Iberville,1429,58,316,48,72.4,0,,54
-Louisiana,Jefferson,653,54,268,91,73.6,0,,1463.1
-Louisiana,Lafayette,9183,57,206,159,71.9,0,,824.6
-Louisiana,Lafourche,3788,58,155,205,73.9,0,,90.2
-Louisiana,Livingston,3981,60,180,185,72.1,0,,197.5
-Louisiana,Orleans,13022,51,0,256,73.1,0,,2029.4
-Louisiana,Ouachita,6639,49,321,42,68.4,0,,251.8
-Louisiana,Pointe Coupee,1081,49,351,0,71.8,0,,40.9
-Louisiana,Rapides,4458,52,0,119,70.2,0,,99.9
-Louisiana,St. Bernard,1487,60,148,201,72.9,0,,95.1
-Louisiana,St. Charles,1889,26,0,0,73.6,0,,189.1
-Louisiana,St. James,820,46,359,0,73,0,,91.5
-Louisiana,St. John the Baptist,1609,48,364,0,73.2,0,,215.5
-Louisiana,St. Martin,2140,48,355,0,72.4,0,,70.7
-Louisiana,St. Tammany,7446,56,236,127,71.8,0,,276.4
-Louisiana,Tangipahoa,4816,52,0,117,71.6,0,,153
-Louisiana,Terrebonne,3748,51,0,120,74.2,0,,90.8
-Louisiana,West Baton Rouge,936,59,162,192,72.2,0,,123.6
-Maryland,Allegany,528,43,0,0,56.5,0,,177
-Maryland,Anne Arundel,10915,67,242,0,61.3,1.415,61.67,1295.9
-Maryland,Baltimore,19102,71,266,78,61.3,3.982,62.85,1345.5
-Maryland,Baltimore (City),16543,62,197,137,61.7,3.752,63.7,7671.5
-Maryland,Calvert,1074,49,232,0,61.6,0,,416.3
-Maryland,Carroll,2092,54,241,0,57.8,0,,373.4
-Maryland,Cecil,1179,58,228,133,59.2,7.376,62.76,292
-Maryland,Charles,2974,50,221,0,61.9,0,,320.2
-Maryland,Dorchester,642,55,329,36,62.1,3.406,,60.3
-Maryland,Frederick,4379,58,243,0,58.2,0,,353.5
-Maryland,Garrett,82,49,270,93,52.9,6.053,72.5,46.5
-Maryland,Harford,3288,71,231,128,59,3.257,63.07,560.1
-Maryland,Howard,5473,52,0,236,59,0,,1144.9
-Maryland,Kent,325,58,233,127,60.2,0,,72.9
-Maryland,Montgomery,23817,52,220,141,59.4,2.566,61.17,1978.2
-Maryland,Prince George's,30878,64,294,69,60.9,3.257,60.13,1788.8
-Maryland,Washington,2008,54,214,146,58,7.227,59.84,322.1
-Massachusetts,Barnstable,1878,45,357,2,55,0,67.12,548.3
-Massachusetts,Berkshire,732,52,247,117,50.3,0,71.6,141.6
-Massachusetts,Bristol,10739,51,296,68,55.3,0,65.65,991.3
-Massachusetts,Dukes,70,48,344,8,54.9,0,,160.2
-Massachusetts,Essex,21380,49,287,70,53.4,0,63.32,1508.8
-Massachusetts,Franklin,426,51,251,113,52.3,0,71.35,102.1
-Massachusetts,Hampden,8854,53,237,116,53.2,0,62.46,751
-Massachusetts,Hampshire,1364,49,288,75,52.7,0,71.47,299
-Massachusetts,Middlesex,29358,48,250,97,54.2,0,,1837.9
-Massachusetts,Norfolk,10942,44,349,0,55,0,67.67,1693.6
-Massachusetts,Plymouth,10380,48,274,89,55.2,0,,750.9
-Massachusetts,Suffolk,25824,53,136,187,55.3,3.878,58.78,12415.7
-Massachusetts,Worcester,15189,54,221,131,53.1,0,66.33,528.6
-Michigan,Allegan,842,61,241,35,52.7,5.857,,135
-Michigan,Bay,1044,46,0,316,52.1,5.823,,243.7
-Michigan,Benzie,88,46,247,0,49.3,0,,54.8
-Michigan,Berrien,1944,51,260,0,53.8,4.638,,276.2
-Michigan,Cass,653,51,255,0,53.4,7.146,,106.7
-Michigan,Chippewa,58,49,0,58,45.2,0,,24.7
-Michigan,Clinton,718,46,248,0,52.3,0,,133.1
-Michigan,Genesee,4617,56,194,146,52.5,5.351,,668.5
-Michigan,Huron,205,46,259,0,50.8,9.172,,39.6
-Michigan,Ingham,4007,49,233,123,52.1,5.961,,505.1
-Michigan,Kalamazoo,3021,54,200,162,53.1,5.719,,445.7
-Michigan,Kent,10752,54,257,101,51.8,5.777,,711.5
-Michigan,Keweenaw,14,15,0,59,44.9,0,,4
-Michigan,Lenawee,911,58,192,166,53.5,6.318,,133.3
-Michigan,Macomb,15335,54,244,48,54,5.627,,1754.9
-Michigan,Manistee,91,49,241,28,49.3,0,,45.6
-Michigan,Mason,140,46,254,0,49.6,6.467,,58
-Michigan,Missaukee,54,49,306,57,48.4,4.005,,26.3
-Michigan,Monroe,1507,16,0,0,55,7.112,,276.7
-Michigan,Muskegon,1643,50,262,0,51.9,3.809,,344.9
-Michigan,Oakland,17825,58,242,51,53,7.791,,1385.7
-Michigan,Ottawa,3846,58,230,45,52.4,4.419,,468.2
-Michigan,Schoolcraft,43,45,243,120,45.4,7.446,,7.2
-Michigan,St. Clair,1016,64,172,128,53.3,6.916,,226.1
-Michigan,Tuscola,475,46,355,0,52.1,0,,69.4
-Michigan,Washtenaw,3804,58,241,124,53,5.397,,488.4
-Michigan,Wayne,19646,77,73,253,54.6,5.627,,2974.4
-Michigan,Wexford,124,46,340,0,48.6,0,,57.9
-New Jersey,Atlantic,4517,51,262,103,59.3,0,,494.1
-New Jersey,Bergen,23323,71,96,211,57.7,0,,3884.5
-New Jersey,Camden,10553,67,202,144,59.7,0,,2321.5
-New Jersey,Cumberland,3879,58,268,91,59.4,0,,324.4
-New Jersey,Essex,21913,62,160,120,58.1,0,,6211.5
-New Jersey,Gloucester,5008,54,226,54,59.7,0,,895.3
-New Jersey,Hudson,21286,61,136,124,59.4,0,,13731.4
-New Jersey,Hunterdon,1461,58,271,91,56.6,0,,300
-New Jersey,Mercer,8850,61,266,99,58.5,0,,1632.2
-New Jersey,Middlesex,20475,61,247,95,58.9,0,,2621.6
-New Jersey,Monmouth,12936,50,240,0,59,0,,1344.7
-New Jersey,Morris,8215,50,335,18,55.5,0,,1069.8
-New Jersey,Ocean,15375,58,218,131,58.9,0,,917
-New Jersey,Passaic,19693,54,224,53,55.8,0,,2715.3
-New Jersey,Union,18316,59,0,256,58.7,0,,5216.1
-New Jersey,Warren,1488,52,197,120,54.9,0,,304.5
-New York,Albany,3324,53,242,123,52.3,0,,581.9
-New York,Bronx,53960,63,164,135,59.1,4.511,54.5,32903.6
-New York,Chautauqua,732,49,320,23,51.8,0,82.29,127.2
-New York,Dutchess,5271,45,331,0,54.9,0,,373.9
-New York,Erie,12182,54,221,117,52.4,0,,881.4
-New York,Essex,181,50,362,2,46.1,0,,21.9
-New York,Franklin,72,0,0,0,46.6,0,,31.7
-New York,Hamilton,16,44,323,0,45.5,0,,2.8
-New York,Herkimer,363,36,185,0,47.5,0,,45.7
-New York,Jefferson,186,46,205,0,49.9,0,,91.6
-New York,Kings,71941,46,0,365,59.5,0,,35369.1
-New York,Monroe,6490,52,235,127,52.4,3.395,68.69,1132.6
-New York,Nassau,48099,42,0,349,58.2,0,66.5,4704.8
-New York,New York,34501,58,184,181,59.5,0,,69467.5
-New York,Niagara,1907,44,352,0,52.8,0,,414.4
-New York,Oneida,2554,35,0,355,49.6,0,,193.7
-New York,Onondaga,4843,49,281,84,51.1,6.479,65.83,600
-New York,Orange,12930,47,275,90,54.7,0,,459.3
-New York,Oswego,557,45,321,0,51,0,,128.3
-New York,Putnam,1698,46,329,0,55.3,0,,432.9
-New York,Queens,74404,58,189,91,59,7.653,,20553.6
-New York,Richmond,16496,55,224,141,59.6,0,,8030.3
-New York,Rockland,16829,49,296,69,56.4,0,,1795.9
-New York,Saratoga,1168,44,331,0,51,0,,271.1
-New York,Seneca,120,1,0,0,51.8,0,,108.9
-New York,St. Lawrence,346,80,0,0,48.3,0,,41.8
-New York,Steuben,731,47,292,73,50.7,1.346,73.71,71.2
-New York,Suffolk,47561,61,295,69,56.3,0,,1637.4
-New York,Tompkins,490,45,353,0,50.5,0,,214
-New York,Wayne,365,47,268,0,51.5,0,,155.3
-New York,Westchester,39064,50,292,73,56.7,0,67.41,2204.7
-Ohio,Adams,178,36,0,324,58,0,,48.9
-Ohio,Allen,1776,56,214,118,55.6,0,,144.6
-Ohio,Ashtabula,690,47,245,0,53.3,0,,264.2
-Ohio,Athens,1053,43,0,120,57,0,,128.6
-Ohio,Belmont,744,38,0,90,55.5,0,,132.3
-Ohio,Butler,7335,78,275,58,57.5,0,,788.2
-Ohio,Clark,2167,64,157,205,56.1,0,,348
-Ohio,Clermont,1091,58,213,145,58,0,,436.5
-Ohio,Clinton,372,58,244,0,56.8,0,,102.9
-Ohio,Columbiana,2027,11,0,0,54.1,0,,202.7
-Ohio,Cuyahoga,18620,70,133,214,55,8.884,72.69,2800
-Ohio,Delaware,2639,51,241,0,55.9,0,,393.2
-Ohio,Fayette,371,48,355,0,56.7,0,,71.4
-Ohio,Franklin,29507,65,174,185,56.9,0,,2186.1
-Ohio,Gallia,248,46,0,0,57.8,0,,66.3
-Ohio,Geauga,773,61,230,0,53.2,0,,233.4
-Ohio,Greene,1914,54,243,0,56.7,0,,390.5
-Ohio,Hamilton,14907,77,152,206,58.4,4.327,67.93,1976.7
-Ohio,Harrison,72,30,0,55,55.3,3.314,,39.4
-Ohio,Jefferson,406,63,119,239,55.1,0,,170.7
-Ohio,Knox,323,51,245,0,54.4,0,,115.9
-Ohio,Lake,1772,54,231,133,54.3,0,,1011.2
-Ohio,Lawrence,809,51,197,168,58.7,0,,137.7
-Ohio,Licking,2212,50,245,0,55.4,0,,243.9
-Ohio,Lorain,2513,52,204,158,54.8,0,,613.6
-Ohio,Lucas,7823,61,200,150,56.1,0,,1296.2
-Ohio,Madison,970,54,245,0,56.3,0,,93.2
-Ohio,Mahoning,3400,54,177,183,53.8,0,,580.2
-Ohio,Medina,1647,53,163,190,54.7,0,,409
-Ohio,Miami,1792,49,241,0,56.2,0,,252.1
-Ohio,Montgomery,9154,64,168,195,56.9,0,,1159.5
-Ohio,Morgan,59,10,0,0,56.6,0,,36.2
-Ohio,Noble,86,49,346,11,56,0,,36.8
-Ohio,Portage,1424,49,214,56,54.2,0,,331.2
-Ohio,Preble,525,60,219,145,55.9,9.011,78.41,99.7
-Ohio,Scioto,690,37,0,103,58.3,0,,130.3
-Ohio,Stark,3408,67,164,201,55.3,0,,652.9
-Ohio,Summit,6032,61,170,193,55.4,0,,1312.6
-Ohio,Trumbull,2099,58,208,154,53.6,0,,340
-Ohio,Warren,3606,63,199,161,57.5,0,,530
-Ohio,Washington,300,51,245,0,57.6,0,,97.8
-Ohio,Wood,2270,49,244,0,56.1,0,,203.3
-Pennsylvania,Adams,945,59,266,99,57.3,0,,195.5
-Pennsylvania,Allegheny,13436,81,98,243,56,5.225,69.01,1675.6
-Pennsylvania,Armstrong,523,51,246,119,54.2,0,,105.5
-Pennsylvania,Beaver,2071,64,231,134,55,0,,392.3
-Pennsylvania,Berks,7901,63,242,123,57.3,0,,480.4
-Pennsylvania,Blair,916,60,211,141,54.1,0,,241.7
-Pennsylvania,Bradford,379,52,242,110,51.6,0,,54.6
-Pennsylvania,Bucks,9392,54,357,0,57.8,0,,1034.7
-Pennsylvania,Cambria,775,57,189,170,52.2,0,,208.7
-Pennsylvania,Centre,3545,62,203,162,53.1,0,,138.7
-Pennsylvania,Chester,7455,64,257,107,57.8,0,,664.7
-Pennsylvania,Clearfield,371,44,359,0,52.2,0,,71.3
-Pennsylvania,Cumberland,2119,64,0,365,57.4,0,,431.6
-Pennsylvania,Dauphin,4234,64,237,127,56.7,0,,510.6
-Pennsylvania,Delaware,12257,71,208,151,59.2,0,,3040.5
-Pennsylvania,Elk,87,46,357,0,51.4,0,,38.6
-Pennsylvania,Erie,1809,51,245,110,52.5,0,,351.1
-Pennsylvania,Fayette,883,54,271,89,54.9,0,,172.8
-Pennsylvania,Franklin,1931,48,341,0,57,0,,193.7
-Pennsylvania,Greene,204,48,257,92,56,0,,67.2
-Pennsylvania,Indiana,883,49,348,0,53.6,0,,107.5
-Pennsylvania,Lackawanna,3022,49,290,53,51.4,0,,467.1
-Pennsylvania,Lancaster,8669,72,198,167,57.9,0,,550.4
-Pennsylvania,Lawrence,643,43,361,0,53.9,0,,254.4
-Pennsylvania,Lebanon,2401,62,219,141,56.9,0,,369.1
-Pennsylvania,Lehigh,5999,61,247,111,56.8,0,,1012.5
-Pennsylvania,Luzerne,4458,45,351,0,52,0,,360.4
-Pennsylvania,Lycoming,838,46,299,62,52.7,0,,94.5
-Pennsylvania,Mercer,840,57,259,106,52.9,0,,173.4
-Pennsylvania,Monroe,1884,45,349,0,51.8,0,,279.5
-Pennsylvania,Montgomery,12897,58,238,124,58.7,0,,1655.9
-Pennsylvania,Northampton,4883,62,242,119,55.7,0,,805.4
-Pennsylvania,Philadelphia,39413,71,206,129,59.9,0,,11379.5
-Pennsylvania,Somerset,278,48,359,0,52.5,0,,72.4
-Pennsylvania,Susquehanna,352,46,0,352,51.1,0,,52.7
-Pennsylvania,Tioga,122,47,288,70,50.5,0,,37
-Pennsylvania,Warren,57,27,0,0,51.2,0,,47.3
-Pennsylvania,Washington,1556,64,205,160,55.7,0,,242.5
-Pennsylvania,Westmoreland,1993,50,278,76,55.2,0,,355.4
-Pennsylvania,Wyoming,91,63,0,27,52.1,0,,71.2
-Pennsylvania,York,5553,56,232,111,57.7,0,,481.1
-Texas,Bell,5825,58,265,99,71.1,6.375,,295.2
-Texas,Bexar,59914,71,161,200,73.1,5.512,,1383.1
-Texas,Bowie,1579,58,0,349,67,3.337,,104.6
-Texas,Brazoria,11960,51,360,0,74.3,0,,230.7
-Texas,Brewster,233,54,308,54,70.6,6.859,43.62,1.5
-Texas,Cameron,23492,62,128,237,78.3,7.469,,456
-Texas,Collin,16384,58,365,0,68.1,6.698,,930
-Texas,Culberson,75,51,105,45,67.5,0,,0.6
-Texas,Dallas,91755,72,199,146,69.6,5.88,54.1,2718
-Texas,Denton,14472,67,287,72,68.5,7.296,54.54,754.3
-Texas,Ector,5409,50,0,354,69.1,7.584,,152.8
-Texas,El Paso,29384,84,204,137,69,4.695,33.22,790.6
-Texas,Ellis,4605,56,269,90,69.6,8.539,54.33,159.9
-Texas,Freestone,430,1,0,0,69.5,5.409,,22.6
-Texas,Galveston,11979,61,261,97,74.5,0,,769.9
-Texas,Gregg,3009,51,343,0,68.3,5.489,,445.4
-Texas,Harris,152000,93,154,184,74,0,,2042.4
-Texas,Harrison,963,54,202,127,68.4,3.153,,72.9
-Texas,Hidalgo,33495,66,132,232,78.2,6.03,,493.2
-Texas,Hood,1045,50,357,0,69.5,6.088,,121.7
-Texas,Howard,992,54,0,0,68.2,8.826,,38.9
-Texas,Hunt,1771,47,361,0,67.5,5.179,,102.5
-Texas,Hutchinson,268,117,0,0,64,9.713,,25
-Texas,Jefferson,7855,65,202,148,72.7,6.536,61.87,187.9
-Texas,Johnson,3316,61,352,0,69.3,7.71,,208.3
-Texas,Kaufman,3303,52,288,76,68.9,5.616,56.69,132.4
-Texas,Kleberg,1029,56,0,284,77.2,10.932,,36.4
-Texas,Lubbock,14377,42,0,330,65.2,7.699,,311.3
-Texas,Maverick,3838,54,0,339,75.4,6.513,,42.4
-Texas,McLennan,9125,50,321,43,70.3,7.492,,226.5
-Texas,Milam,520,1,0,0,71.3,4.983,,24.3
-Texas,Montgomery,12496,58,284,79,72.8,0,,437.5
-Texas,Navarro,1813,67,225,71,69.6,6.79,56.77,47.3
-Texas,Nueces,20835,62,171,193,76.3,8.286,,405.8
-Texas,Orange,1043,59,195,150,72.2,3.027,,245.3
-Texas,Parker,2185,54,363,0,68.5,8.205,,129.4
-Texas,Polk,1205,44,344,0,71.1,0,,43
-Texas,Potter,6822,55,0,255,63.3,11.243,,133.3
-Texas,Randall,3955,61,354,0,62.4,0,,132.4
-Texas,Robertson,379,1,0,0,70.4,5.225,,19.4
-Texas,Rockwall,1754,47,323,0,68.5,5.639,,616.7
-Texas,Rusk,970,57,0,0,68.6,3.176,,57.7
-Texas,Smith,5559,51,360,0,68.2,7.02,,227.6
-Texas,Tarrant,56159,74,216,133,69.3,7.307,53.86,2094.7
-Texas,Titus,1514,11,0,0,67.7,3.326,,79.6
-Texas,Travis,30389,63,178,180,72,4.948,,1034.4
-Texas,Victoria,4159,48,341,0,75.2,7.123,,98.4
-Texas,Webb,14473,67,138,225,75.9,5.524,,74.5
-Virginia,Albemarle,1443,48,233,49,60.6,0,,137.3
-Virginia,Alexandria City,4045,8,0,0,61.6,0,,9314.3
-Virginia,Arlington,4228,60,228,38,61,0,,7993.6
-Virginia,Botetourt,339,16,0,0,58.7,0,,61.2
-Virginia,Bristol City,216,45,0,117,59.8,0,,1370.6
-Virginia,Caroline,384,48,239,0,61.5,0,,54.1
-Virginia,Carroll,534,15,0,0,56.2,0,,63.3
-Virginia,Charles,88,47,218,47,63.7,0,,39.7
-Virginia,Chesterfield,6458,50,235,45,62.6,0,,747.1
-Virginia,Covington City,33,29,0,0,58.3,0,,1090.2
-Virginia,Fairfax,22185,61,167,160,60.8,0,,2766.8
-Virginia,Fauquier,1020,45,233,0,59.6,0,,100.7
-Virginia,Frederick,1034,49,203,162,57.7,0,,189.4
-Virginia,Giles,101,59,296,0,55.9,0,,48.6
-Virginia,Hanover,1468,54,243,0,61.8,0,,213.1
-Virginia,Henrico,5801,50,302,40,62.5,0,,1313.4
-Virginia,Loudoun,7303,53,211,48,59.5,0,,605.8
-Virginia,Lynchburg City,1726,43,0,108,61.5,0,,1538.2
-Virginia,Madison,117,50,353,9,59,4.431,69.46,41.5
-Virginia,Norfolk City,5085,36,0,101,56.6,0,,4486.4
-Virginia,Prince Edward,679,44,358,0,61.4,0,,66.83
-Virginia,Prince William,13281,48,245,0,61,0,,1195
-Virginia,Richmond City,4978,53,0,271,62.4,0,,3414.7
-Virginia,Roanoke,2212,50,203,105,59,0,,368.7
-Virginia,Rockbridge,143,46,239,15,58.2,0,,37.3
-Virginia,Rockingham,1640,48,227,44,57.4,0,,89.9
-Virginia,Salem City,382,45,0,118,60.5,0,,1717.9
-Virginia,Stafford,2174,49,240,0,61.3,0,,479.5
-Virginia,Suffolk City,2204,50,245,0,64.2,0,,211.4
-Virginia,Virginia Beach City,7351,48,0,115,64.8,0,,1758.9
-Virginia,Winchester City,538,14,0,0,58.3,0,,2838
-Virginia,Wythe,285,48,242,0,55.9,0,,63.3
+State,County,Cases as of 10/12/2020,90th Percentile AQI,Days Ozone,Days PM2.5,Mean Temp,Population Density (2010)
+California,Alameda,22126,63,175,162,62.6,2043.6
+California,Amador,305,51,355,0,62.1,64.1
+California,Butte,2975,67,231,133,64.4,134.4
+California,Calaveras,262,58,322,35,62.6,44.7
+California,Colusa,541,59,228,83,66.1,18.6
+California,Contra Costa,17728,62,242,115,63.9,1465.2
+California,Del Norte,161,43,0,248,55,28.4
+California,El Dorado,1254,74,356,0,58,106
+California,Fresno,29523,115,259,80,59.6,156.2
+California,Glenn,626,55,277,68,64.8,21.4
+California,Humboldt,522,40,272,50,57.3,37.7
+California,Imperial,11689,93,210,79,78.4,41.8
+California,Inyo,201,84,319,13,65.6,1.8
+California,Kern,32425,122,260,73,66.1,103.3
+California,Kings,8106,105,190,103,67.5,110.1
+California,Lake,633,41,356,3,61.3,51.5
+California,Los Angeles,280961,136,197,124,64.9,2419.6
+California,Madera,4689,84,260,66,60,70.6
+California,Marin,6886,48,222,126,58.6,485.1
+California,Mariposa,76,84,296,68,59.6,12.6
+California,Mendocino,946,47,229,120,58.4,25.1
+California,Merced,9141,79,250,113,66.2,132.2
+California,Mono,154,81,0,305,48.8,4.7
+California,Monterey,10473,50,288,61,61.7,126.5
+California,Napa,1819,49,265,96,63.2,182.4
+California,Nevada,570,71,326,35,56.5,103.1
+California,Orange,55373,87,262,83,66.4,3807.7
+California,Placer,3808,77,307,54,57.8,247.6
+California,Plumas,51,68,0,341,51.6,7.8
+California,Riverside,62279,147,247,70,72.4,303.8
+California,Sacramento,23807,84,240,116,66.6,1470.8
+California,San Benito,1376,51,347,11,62.3,39.8
+California,San Bernardino,57235,169,246,96,71.1,101.5
+California,San Diego,50748,93,176,184,65.9,735.8
+California,San Francisco,11659,52,172,165,59.1,17179.1
+California,San Joaquin,20701,81,233,113,66.6,492.6
+California,San Luis Obispo,3874,74,282,45,62.6,81.7
+California,San Mateo,10262,51,209,135,59.3,1602.2
+California,Santa Barbara,9462,59,295,57,61.2,155
+California,Santa Clara,22578,66,218,139,61.6,1381
+California,Santa Cruz,2590,46,262,103,60,589.4
+California,Shasta,1515,54,352,10,59.7,46.9
+California,Siskiyou,162,49,262,103,53.3,7.2
+California,Solano,6472,59,224,139,64.9,503
+California,Sonoma,8377,45,265,90,60.2,307.1
+California,Stanislaus,17051,91,245,107,65.8,344.2
+California,Sutter,1741,71,249,109,67.4,157.3
+California,Tehama,708,64,323,41,63.1,21.5
+California,Trinity,19,49,0,266,56.8,4.3
+California,Tulare,16742,122,242,98,57.9,91.7
+California,Tuolumne,234,67,358,0,54.3,24.9
+California,Ventura,13617,77,284,65,60.6,446.7
+California,Yolo,2964,61,279,82,66.1,197.9
+Connecticut,Fairfield,20261,77,186,169,55.9,1116.3
+Connecticut,Hartford,15240,55,240,98,54.9,1195.5
+Connecticut,Litchfield,1861,48,339,26,52.5,198.5
+Connecticut,Middlesex,1643,61,205,0,55.2,377
+Connecticut,New Haven,14691,67,247,99,55.3,1001.3
+Connecticut,New London,2821,52,200,164,55,355.2
+Connecticut,Tolland,1423,54,212,0,53.9,365.1
+Connecticut,Windham,1161,46,360,0,54,226.1
+Florida,Alachua,8968,50,273,91,73.4,282.7
+Florida,Baker,1624,48,361,0,72,46.3
+Florida,Bay,6202,54,235,122,72.7,222.6
+Florida,Brevard,9968,46,306,45,75.6,535
+Florida,Broward,78916,54,165,187,78.3,1444.9
+Florida,Citrus,2948,48,0,353,74.9,242.8
+Florida,Collier,13186,50,197,165,77.5,160.9
+Florida,Columbia,4008,58,207,156,71.7,84.7
+Florida,Duval,31770,64,174,187,73.2,1133.9
+Florida,Escambia,11495,57,271,94,71.3,453.4
+Florida,Flagler,1869,45,270,0,74.8,197.1
+Florida,Hamilton,879,51,0,316,71,28.8
+Florida,Highlands,2364,46,233,0,76.1,97.2
+Florida,Hillsborough,44223,64,211,150,76.5,1204.9
+Florida,Holmes,785,56,203,159,71.6,41.6
+Florida,Indian River,3425,47,335,0,75.9,274.5
+Florida,Lake,7920,50,330,0,75.6,316.6
+Florida,Lee,21107,51,251,110,77.4,788.7
+Florida,Leon,11025,58,168,192,71.9,413.1
+Florida,Liberty,520,45,351,0,72.2,10
+Florida,Manatee,12098,49,365,0,76.2,434.5
+Florida,Marion,10179,54,236,129,74.4,209.1
+Florida,Martin,5055,49,235,117,77.2,269.2
+Florida,Miami-Dade,174641,52,150,186,78.9,1315.5
+Florida,Nassau,2121,46,0,254,72.5,113
+Florida,Okaloosa,5408,48,342,0,71.1,194.4
+Florida,Orange,41943,51,300,58,75.9,1268.5
+Florida,Osceola,13121,48,364,0,76,202.4
+Florida,Palm Beach,47756,51,218,137,77.7,670.2
+Florida,Pasco,9874,49,365,0,75.9,622.2
+Florida,Pinellas,23204,59,213,148,76.8,3347.5
+Florida,Polk,21189,54,248,115,76.3,334.9
+Florida,Putnam,2212,29,0,0,74.7,102.2
+Florida,Santa Rosa,5529,57,241,123,70.7,149.6
+Florida,Sarasota,8655,52,246,119,76.4,682.6
+Florida,Seminole,9461,52,297,67,75.7,1367
+Florida,St. Lucie,8386,46,352,0,76.4,485.7
+Florida,Volusia,11503,50,241,109,75,449.2
+Florida,Wakulla,1193,54,257,103,72.4,50.8
+Georgia,Bibb,6335,61,158,204,68.5,622.88
+Georgia,Charlton,645,36,0,43,71.8,15.7
+Georgia,Chatham,8927,56,146,161,71.6,621.7
+Georgia,Chattooga,844,48,244,0,64.6,83
+Georgia,Clarke,5399,61,136,229,64,979.1
+Georgia,Clayton,7569,54,0,119,64.7,1832.5
+Georgia,Cobb,20697,60,210,72,64.9,2026.4
+Georgia,Coffee,2151,52,0,121,70.7,73.7
+Georgia,Columbia,4015,49,245,0,67.9,427.6
+Georgia,Dawson,860,48,244,0,61.8,105.9
+Georgia,DeKalb,19797,64,156,175,65.3,2585.7
+Georgia,Dougherty,32273,63,0,356,70.8,287.7
+Georgia,Douglas,3864,58,245,0,65.3,661.8
+Georgia,Floyd,3461,62,0,360,64.9,188.9
+Georgia,Fulton,29274,74,130,214,65.2,1748
+Georgia,Glynn,3572,50,224,55,71.6,189.7
+Georgia,Gwinnett,29015,69,152,203,64.2,1871.2
+Georgia,Hall,10028,57,0,340,63.4,457.5
+Georgia,Henry,5699,59,166,197,66.2,633
+Georgia,Houston,3323,61,0,354,69.1,372.5
+Georgia,Lowndes,4151,55,0,309,70.1,220.2
+Georgia,Murray,896,54,240,10,63.4,115
+Georgia,Muscogee,6218,58,149,215,67.9,877.5
+Georgia,Pike,367,58,353,0,66.8,82.7
+Georgia,Richmond,7549,64,127,203,69,618.4
+Georgia,Rockdale,1965,67,241,0,65.7,656.5
+Georgia,Sumter,949,54,238,0,69.2,68
+Georgia,Walker,1679,57,0,356,64.2,154
+Georgia,Washington,710,54,0,211,68.1,31.2
+Illinois,Adams,1432,54,241,0,56.1,78.5
+Illinois,Champaign,5434,61,235,130,55.6,201.8
+Illinois,Clark,234,47,327,0,57.2,32.6
+Illinois,Cook,71086,76,91,238,54.7,5495.1
+Illinois,DuPage,19640,61,172,180,54.3,2799.8
+Illinois,Effingham,995,50,245,0,57.6,71.5
+Illinois,Hamilton,91,58,198,146,59.8,19.5
+Illinois,Jersey,431,58,207,140,58.3,62.2
+Illinois,Jo Daviess,369,47,363,0,52.4,37.7
+Illinois,Kane,14436,63,226,58,53.3,990.8
+Illinois,La Salle,2004,4,0,0,54.3,100.4
+Illinois,Lake,18521,58,245,0,53.3,1585.6
+Illinois,Macon,2115,61,148,187,56.5,190.8
+Illinois,Macoupin,654,47,245,0,57.4,55.4
+Illinois,Madison,6426,71,186,174,58.8,376.3
+Illinois,McHenry,5202,61,142,198,52.9,511.9
+Illinois,McLean,3712,61,174,190,55.4,143.3
+Illinois,Monroe,808,6,0,0,60.2,85.6
+Illinois,Peoria,3985,58,203,161,55.5,301.2
+Illinois,Randolph,1069,54,209,115,59.9,58.2
+Illinois,Rock Island,3411,59,186,175,54.4,345
+Illinois,Saint Clair,7294,60,169,133,59.7,410.6
+Illinois,Sangamon,3052,58,183,177,56.5,227.4
+Illinois,Tazewell,2164,9,0,0,56.1,208.6
+Illinois,Wabash,185,10,0,0,59.6,53.5
+Illinois,Will,15766,62,140,225,54.7,809.6
+Illinois,Winnebago,8063,61,147,194,53,575.2
+Louisiana,Ascension,3882,54,354,0,72.6,369.7
+Louisiana,Bossier,3674,50,223,125,68.9,139.3
+Louisiana,Caddo,9329,55,278,78,68.9,290.2
+Louisiana,Calcasieu,8068,63,133,227,72.2,181.2
+Louisiana,East Baton Rouge,15512,68,177,179,72,966.6
+Louisiana,Iberville,1429,58,316,48,72.4,54
+Louisiana,Jefferson,653,54,268,91,73.6,1463.1
+Louisiana,Lafayette,9183,57,206,159,71.9,824.6
+Louisiana,Lafourche,3788,58,155,205,73.9,90.2
+Louisiana,Livingston,3981,60,180,185,72.1,197.5
+Louisiana,Orleans,13022,51,0,256,73.1,2029.4
+Louisiana,Ouachita,6639,49,321,42,68.4,251.8
+Louisiana,Pointe Coupee,1081,49,351,0,71.8,40.9
+Louisiana,Rapides,4458,52,0,119,70.2,99.9
+Louisiana,St. Bernard,1487,60,148,201,72.9,95.1
+Louisiana,St. Charles,1889,26,0,0,73.6,189.1
+Louisiana,St. James,820,46,359,0,73,91.5
+Louisiana,St. John the Baptist,1609,48,364,0,73.2,215.5
+Louisiana,St. Martin,2140,48,355,0,72.4,70.7
+Louisiana,St. Tammany,7446,56,236,127,71.8,276.4
+Louisiana,Tangipahoa,4816,52,0,117,71.6,153
+Louisiana,Terrebonne,3748,51,0,120,74.2,90.8
+Louisiana,West Baton Rouge,936,59,162,192,72.2,123.6
+Maryland,Allegany,528,43,0,0,56.5,177
+Maryland,Anne Arundel,10915,67,242,0,61.3,1295.9
+Maryland,Baltimore,19102,71,266,78,61.3,1345.5
+Maryland,Baltimore (City),16543,62,197,137,61.7,7671.5
+Maryland,Calvert,1074,49,232,0,61.6,416.3
+Maryland,Carroll,2092,54,241,0,57.8,373.4
+Maryland,Cecil,1179,58,228,133,59.2,292
+Maryland,Charles,2974,50,221,0,61.9,320.2
+Maryland,Dorchester,642,55,329,36,62.1,60.3
+Maryland,Frederick,4379,58,243,0,58.2,353.5
+Maryland,Garrett,82,49,270,93,52.9,46.5
+Maryland,Harford,3288,71,231,128,59,560.1
+Maryland,Howard,5473,52,0,236,59,1144.9
+Maryland,Kent,325,58,233,127,60.2,72.9
+Maryland,Montgomery,23817,52,220,141,59.4,1978.2
+Maryland,Prince George's,30878,64,294,69,60.9,1788.8
+Maryland,Washington,2008,54,214,146,58,322.1
+Massachusetts,Barnstable,1878,45,357,2,55,548.3
+Massachusetts,Berkshire,732,52,247,117,50.3,141.6
+Massachusetts,Bristol,10739,51,296,68,55.3,991.3
+Massachusetts,Dukes,70,48,344,8,54.9,160.2
+Massachusetts,Essex,21380,49,287,70,53.4,1508.8
+Massachusetts,Franklin,426,51,251,113,52.3,102.1
+Massachusetts,Hampden,8854,53,237,116,53.2,751
+Massachusetts,Hampshire,1364,49,288,75,52.7,299
+Massachusetts,Middlesex,29358,48,250,97,54.2,1837.9
+Massachusetts,Norfolk,10942,44,349,0,55,1693.6
+Massachusetts,Plymouth,10380,48,274,89,55.2,750.9
+Massachusetts,Suffolk,25824,53,136,187,55.3,12415.7
+Massachusetts,Worcester,15189,54,221,131,53.1,528.6
+Michigan,Allegan,842,61,241,35,52.7,135
+Michigan,Bay,1044,46,0,316,52.1,243.7
+Michigan,Benzie,88,46,247,0,49.3,54.8
+Michigan,Berrien,1944,51,260,0,53.8,276.2
+Michigan,Cass,653,51,255,0,53.4,106.7
+Michigan,Chippewa,58,49,0,58,45.2,24.7
+Michigan,Clinton,718,46,248,0,52.3,133.1
+Michigan,Genesee,4617,56,194,146,52.5,668.5
+Michigan,Huron,205,46,259,0,50.8,39.6
+Michigan,Ingham,4007,49,233,123,52.1,505.1
+Michigan,Kalamazoo,3021,54,200,162,53.1,445.7
+Michigan,Kent,10752,54,257,101,51.8,711.5
+Michigan,Keweenaw,14,15,0,59,44.9,4
+Michigan,Lenawee,911,58,192,166,53.5,133.3
+Michigan,Macomb,15335,54,244,48,54,1754.9
+Michigan,Manistee,91,49,241,28,49.3,45.6
+Michigan,Mason,140,46,254,0,49.6,58
+Michigan,Missaukee,54,49,306,57,48.4,26.3
+Michigan,Monroe,1507,16,0,0,55,276.7
+Michigan,Muskegon,1643,50,262,0,51.9,344.9
+Michigan,Oakland,17825,58,242,51,53,1385.7
+Michigan,Ottawa,3846,58,230,45,52.4,468.2
+Michigan,Schoolcraft,43,45,243,120,45.4,7.2
+Michigan,St. Clair,1016,64,172,128,53.3,226.1
+Michigan,Tuscola,475,46,355,0,52.1,69.4
+Michigan,Washtenaw,3804,58,241,124,53,488.4
+Michigan,Wayne,19646,77,73,253,54.6,2974.4
+Michigan,Wexford,124,46,340,0,48.6,57.9
+New Jersey,Atlantic,4517,51,262,103,59.3,494.1
+New Jersey,Bergen,23323,71,96,211,57.7,3884.5
+New Jersey,Camden,10553,67,202,144,59.7,2321.5
+New Jersey,Cumberland,3879,58,268,91,59.4,324.4
+New Jersey,Essex,21913,62,160,120,58.1,6211.5
+New Jersey,Gloucester,5008,54,226,54,59.7,895.3
+New Jersey,Hudson,21286,61,136,124,59.4,13731.4
+New Jersey,Hunterdon,1461,58,271,91,56.6,300
+New Jersey,Mercer,8850,61,266,99,58.5,1632.2
+New Jersey,Middlesex,20475,61,247,95,58.9,2621.6
+New Jersey,Monmouth,12936,50,240,0,59,1344.7
+New Jersey,Morris,8215,50,335,18,55.5,1069.8
+New Jersey,Ocean,15375,58,218,131,58.9,917
+New Jersey,Passaic,19693,54,224,53,55.8,2715.3
+New Jersey,Union,18316,59,0,256,58.7,5216.1
+New Jersey,Warren,1488,52,197,120,54.9,304.5
+New York,Albany,3324,53,242,123,52.3,581.9
+New York,Bronx,53960,63,164,135,59.1,32903.6
+New York,Chautauqua,732,49,320,23,51.8,127.2
+New York,Dutchess,5271,45,331,0,54.9,373.9
+New York,Erie,12182,54,221,117,52.4,881.4
+New York,Essex,181,50,362,2,46.1,21.9
+New York,Franklin,72,0,0,0,46.6,31.7
+New York,Hamilton,16,44,323,0,45.5,2.8
+New York,Herkimer,363,36,185,0,47.5,45.7
+New York,Jefferson,186,46,205,0,49.9,91.6
+New York,Kings,71941,46,0,365,59.5,35369.1
+New York,Monroe,6490,52,235,127,52.4,1132.6
+New York,Nassau,48099,42,0,349,58.2,4704.8
+New York,New York,34501,58,184,181,59.5,69467.5
+New York,Niagara,1907,44,352,0,52.8,414.4
+New York,Oneida,2554,35,0,355,49.6,193.7
+New York,Onondaga,4843,49,281,84,51.1,600
+New York,Orange,12930,47,275,90,54.7,459.3
+New York,Oswego,557,45,321,0,51,128.3
+New York,Putnam,1698,46,329,0,55.3,432.9
+New York,Queens,74404,58,189,91,59,20553.6
+New York,Richmond,16496,55,224,141,59.6,8030.3
+New York,Rockland,16829,49,296,69,56.4,1795.9
+New York,Saratoga,1168,44,331,0,51,271.1
+New York,Seneca,120,1,0,0,51.8,108.9
+New York,St. Lawrence,346,80,0,0,48.3,41.8
+New York,Steuben,731,47,292,73,50.7,71.2
+New York,Suffolk,47561,61,295,69,56.3,1637.4
+New York,Tompkins,490,45,353,0,50.5,214
+New York,Wayne,365,47,268,0,51.5,155.3
+New York,Westchester,39064,50,292,73,56.7,2204.7
+Ohio,Adams,178,36,0,324,58,48.9
+Ohio,Allen,1776,56,214,118,55.6,144.6
+Ohio,Ashtabula,690,47,245,0,53.3,264.2
+Ohio,Athens,1053,43,0,120,57,128.6
+Ohio,Belmont,744,38,0,90,55.5,132.3
+Ohio,Butler,7335,78,275,58,57.5,788.2
+Ohio,Clark,2167,64,157,205,56.1,348
+Ohio,Clermont,1091,58,213,145,58,436.5
+Ohio,Clinton,372,58,244,0,56.8,102.9
+Ohio,Columbiana,2027,11,0,0,54.1,202.7
+Ohio,Cuyahoga,18620,70,133,214,55,2800
+Ohio,Delaware,2639,51,241,0,55.9,393.2
+Ohio,Fayette,371,48,355,0,56.7,71.4
+Ohio,Franklin,29507,65,174,185,56.9,2186.1
+Ohio,Gallia,248,46,0,0,57.8,66.3
+Ohio,Geauga,773,61,230,0,53.2,233.4
+Ohio,Greene,1914,54,243,0,56.7,390.5
+Ohio,Hamilton,14907,77,152,206,58.4,1976.7
+Ohio,Harrison,72,30,0,55,55.3,39.4
+Ohio,Jefferson,406,63,119,239,55.1,170.7
+Ohio,Knox,323,51,245,0,54.4,115.9
+Ohio,Lake,1772,54,231,133,54.3,1011.2
+Ohio,Lawrence,809,51,197,168,58.7,137.7
+Ohio,Licking,2212,50,245,0,55.4,243.9
+Ohio,Lorain,2513,52,204,158,54.8,613.6
+Ohio,Lucas,7823,61,200,150,56.1,1296.2
+Ohio,Madison,970,54,245,0,56.3,93.2
+Ohio,Mahoning,3400,54,177,183,53.8,580.2
+Ohio,Medina,1647,53,163,190,54.7,409
+Ohio,Miami,1792,49,241,0,56.2,252.1
+Ohio,Montgomery,9154,64,168,195,56.9,1159.5
+Ohio,Morgan,59,10,0,0,56.6,36.2
+Ohio,Noble,86,49,346,11,56,36.8
+Ohio,Portage,1424,49,214,56,54.2,331.2
+Ohio,Preble,525,60,219,145,55.9,99.7
+Ohio,Scioto,690,37,0,103,58.3,130.3
+Ohio,Stark,3408,67,164,201,55.3,652.9
+Ohio,Summit,6032,61,170,193,55.4,1312.6
+Ohio,Trumbull,2099,58,208,154,53.6,340
+Ohio,Warren,3606,63,199,161,57.5,530
+Ohio,Washington,300,51,245,0,57.6,97.8
+Ohio,Wood,2270,49,244,0,56.1,203.3
+Pennsylvania,Adams,945,59,266,99,57.3,195.5
+Pennsylvania,Allegheny,13436,81,98,243,56,1675.6
+Pennsylvania,Armstrong,523,51,246,119,54.2,105.5
+Pennsylvania,Beaver,2071,64,231,134,55,392.3
+Pennsylvania,Berks,7901,63,242,123,57.3,480.4
+Pennsylvania,Blair,916,60,211,141,54.1,241.7
+Pennsylvania,Bradford,379,52,242,110,51.6,54.6
+Pennsylvania,Bucks,9392,54,357,0,57.8,1034.7
+Pennsylvania,Cambria,775,57,189,170,52.2,208.7
+Pennsylvania,Centre,3545,62,203,162,53.1,138.7
+Pennsylvania,Chester,7455,64,257,107,57.8,664.7
+Pennsylvania,Clearfield,371,44,359,0,52.2,71.3
+Pennsylvania,Cumberland,2119,64,0,365,57.4,431.6
+Pennsylvania,Dauphin,4234,64,237,127,56.7,510.6
+Pennsylvania,Delaware,12257,71,208,151,59.2,3040.5
+Pennsylvania,Elk,87,46,357,0,51.4,38.6
+Pennsylvania,Erie,1809,51,245,110,52.5,351.1
+Pennsylvania,Fayette,883,54,271,89,54.9,172.8
+Pennsylvania,Franklin,1931,48,341,0,57,193.7
+Pennsylvania,Greene,204,48,257,92,56,67.2
+Pennsylvania,Indiana,883,49,348,0,53.6,107.5
+Pennsylvania,Lackawanna,3022,49,290,53,51.4,467.1
+Pennsylvania,Lancaster,8669,72,198,167,57.9,550.4
+Pennsylvania,Lawrence,643,43,361,0,53.9,254.4
+Pennsylvania,Lebanon,2401,62,219,141,56.9,369.1
+Pennsylvania,Lehigh,5999,61,247,111,56.8,1012.5
+Pennsylvania,Luzerne,4458,45,351,0,52,360.4
+Pennsylvania,Lycoming,838,46,299,62,52.7,94.5
+Pennsylvania,Mercer,840,57,259,106,52.9,173.4
+Pennsylvania,Monroe,1884,45,349,0,51.8,279.5
+Pennsylvania,Montgomery,12897,58,238,124,58.7,1655.9
+Pennsylvania,Northampton,4883,62,242,119,55.7,805.4
+Pennsylvania,Philadelphia,39413,71,206,129,59.9,11379.5
+Pennsylvania,Somerset,278,48,359,0,52.5,72.4
+Pennsylvania,Susquehanna,352,46,0,352,51.1,52.7
+Pennsylvania,Tioga,122,47,288,70,50.5,37
+Pennsylvania,Warren,57,27,0,0,51.2,47.3
+Pennsylvania,Washington,1556,64,205,160,55.7,242.5
+Pennsylvania,Westmoreland,1993,50,278,76,55.2,355.4
+Pennsylvania,Wyoming,91,63,0,27,52.1,71.2
+Pennsylvania,York,5553,56,232,111,57.7,481.1
+Texas,Bell,5825,58,265,99,71.1,295.2
+Texas,Bexar,59914,71,161,200,73.1,1383.1
+Texas,Bowie,1579,58,0,349,67,104.6
+Texas,Brazoria,11960,51,360,0,74.3,230.7
+Texas,Brewster,233,54,308,54,70.6,1.5
+Texas,Cameron,23492,62,128,237,78.3,456
+Texas,Collin,16384,58,365,0,68.1,930
+Texas,Culberson,75,51,105,45,67.5,0.6
+Texas,Dallas,91755,72,199,146,69.6,2718
+Texas,Denton,14472,67,287,72,68.5,754.3
+Texas,Ector,5409,50,0,354,69.1,152.8
+Texas,El Paso,29384,84,204,137,69,790.6
+Texas,Ellis,4605,56,269,90,69.6,159.9
+Texas,Freestone,430,1,0,0,69.5,22.6
+Texas,Galveston,11979,61,261,97,74.5,769.9
+Texas,Gregg,3009,51,343,0,68.3,445.4
+Texas,Harris,152000,93,154,184,74,2042.4
+Texas,Harrison,963,54,202,127,68.4,72.9
+Texas,Hidalgo,33495,66,132,232,78.2,493.2
+Texas,Hood,1045,50,357,0,69.5,121.7
+Texas,Howard,992,54,0,0,68.2,38.9
+Texas,Hunt,1771,47,361,0,67.5,102.5
+Texas,Hutchinson,268,117,0,0,64,25
+Texas,Jefferson,7855,65,202,148,72.7,187.9
+Texas,Johnson,3316,61,352,0,69.3,208.3
+Texas,Kaufman,3303,52,288,76,68.9,132.4
+Texas,Kleberg,1029,56,0,284,77.2,36.4
+Texas,Lubbock,14377,42,0,330,65.2,311.3
+Texas,Maverick,3838,54,0,339,75.4,42.4
+Texas,McLennan,9125,50,321,43,70.3,226.5
+Texas,Milam,520,1,0,0,71.3,24.3
+Texas,Montgomery,12496,58,284,79,72.8,437.5
+Texas,Navarro,1813,67,225,71,69.6,47.3
+Texas,Nueces,20835,62,171,193,76.3,405.8
+Texas,Orange,1043,59,195,150,72.2,245.3
+Texas,Parker,2185,54,363,0,68.5,129.4
+Texas,Polk,1205,44,344,0,71.1,43
+Texas,Potter,6822,55,0,255,63.3,133.3
+Texas,Randall,3955,61,354,0,62.4,132.4
+Texas,Robertson,379,1,0,0,70.4,19.4
+Texas,Rockwall,1754,47,323,0,68.5,616.7
+Texas,Rusk,970,57,0,0,68.6,57.7
+Texas,Smith,5559,51,360,0,68.2,227.6
+Texas,Tarrant,56159,74,216,133,69.3,2094.7
+Texas,Titus,1514,11,0,0,67.7,79.6
+Texas,Travis,30389,63,178,180,72,1034.4
+Texas,Victoria,4159,48,341,0,75.2,98.4
+Texas,Webb,14473,67,138,225,75.9,74.5
+Virginia,Albemarle,1443,48,233,49,60.6,137.3
+Virginia,Alexandria City,4045,8,0,0,61.6,9314.3
+Virginia,Arlington,4228,60,228,38,61,7993.6
+Virginia,Botetourt,339,16,0,0,58.7,61.2
+Virginia,Bristol City,216,45,0,117,59.8,1370.6
+Virginia,Caroline,384,48,239,0,61.5,54.1
+Virginia,Carroll,534,15,0,0,56.2,63.3
+Virginia,Charles,88,47,218,47,63.7,39.7
+Virginia,Chesterfield,6458,50,235,45,62.6,747.1
+Virginia,Covington City,33,29,0,0,58.3,1090.2
+Virginia,Fairfax,22185,61,167,160,60.8,2766.8
+Virginia,Fauquier,1020,45,233,0,59.6,100.7
+Virginia,Frederick,1034,49,203,162,57.7,189.4
+Virginia,Giles,101,59,296,0,55.9,48.6
+Virginia,Hanover,1468,54,243,0,61.8,213.1
+Virginia,Henrico,5801,50,302,40,62.5,1313.4
+Virginia,Loudoun,7303,53,211,48,59.5,605.8
+Virginia,Lynchburg City,1726,43,0,108,61.5,1538.2
+Virginia,Madison,117,50,353,9,59,41.5
+Virginia,Norfolk City,5085,36,0,101,56.6,4486.4
+Virginia,Prince Edward,679,44,358,0,61.4,66.83
+Virginia,Prince William,13281,48,245,0,61,1195
+Virginia,Richmond City,4978,53,0,271,62.4,3414.7
+Virginia,Roanoke,2212,50,203,105,59,368.7
+Virginia,Rockbridge,143,46,239,15,58.2,37.3
+Virginia,Rockingham,1640,48,227,44,57.4,89.9
+Virginia,Salem City,382,45,0,118,60.5,1717.9
+Virginia,Stafford,2174,49,240,0,61.3,479.5
+Virginia,Suffolk City,2204,50,245,0,64.2,211.4
+Virginia,Virginia Beach City,7351,48,0,115,64.8,1758.9
+Virginia,Winchester City,538,14,0,0,58.3,2838
+Virginia,Wythe,285,48,242,0,55.9,63.3

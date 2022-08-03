@@ -4,7 +4,7 @@ rm(list=ls()) # Clear existing data and variables from the Global Environment
 
 # Include the libraries (some of these will be needed at a later 
 #                       stage of the project)
-
+install.packages('nloptr')
 library(leaps) #all subsets
 library(faraway) #this will be used to check adjusted r square
 library(MASS) #this has the step AIC function
@@ -473,3 +473,4 @@ predict.data <- predict.data[-c(5)]
 predict(mod_gam3, predict.data, type="response")
 #         1         2         3 
 #     7.800852  8.762426  7.944883
+
