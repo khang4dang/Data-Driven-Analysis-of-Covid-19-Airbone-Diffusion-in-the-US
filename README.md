@@ -258,9 +258,7 @@ It was demonstrated through this paper that with appropriate data, different mac
 Having said that, it is quite cumbersome to collect meteorological and demographic data for a country like the United States as it is geographically dispersed, and the data is populated to the government servers after large intervals. In future studies, if a better dataset can be constructed including ore variables like relative humidity, wind speed, etc., a more accurate predictive model can be trained and utilized to control the spread.
 
 ---
-<p align="center"><b>
-Khang Dang & Arup Bhattacharya
-</b></p>
+
 
 [^1]: Bai, Yan; Yao, Lingsheng; Wei, tao; Tian, Fei; Jin, Dong-Yan; Chen, Lijuan; Wang, M. (2020). Presumed Asymptomatic Carrier Transmission of COVID-19. Journal of American Medical Association, 323(14), 1406–1407. https://doi.org/10.1056/NEJMoa2001316
 
