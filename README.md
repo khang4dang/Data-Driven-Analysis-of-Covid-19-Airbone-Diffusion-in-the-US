@@ -160,7 +160,7 @@ Finally, the selected model was employed to make predictions for the cumulative 
 The training data was used to run the Generalized Additive Model, to check for non-linear relationships between the predictors and the response.  We first started with the standard linear regression model (SLiM) approach. The results from the SLiM approach, as shown in Figure 5, suggested that we have significantly statistical effects for all the selected and modified variables, but not for ozone concentration, and the high R-squared value (0.807) suggests a notable amount of the variance is accounted for, quite similar to the MLR model in Equation 6. 
 
 <p align="center">
-<img width="700" src="https://github.com/khang4dang/Data-Driven-Analysis-of-Covid-19-Airbone-Diffusion-in-the-US/blob/main/images/Figure_5.png">
+<img width="600" src="https://github.com/khang4dang/Data-Driven-Analysis-of-Covid-19-Airbone-Diffusion-in-the-US/blob/main/images/Figure_5.png">
 </p>
 <p align="center"><b>
 Figure 5: Summary of SLiM 
