@@ -38,21 +38,29 @@ Supervised statistical learning method, where a set of methods are used to formu
 #### a. Multiple Linear Regression Model
 Linear Regression is a statistical method to explore the relationship between the response and the predictor variables. When only one predictor is used to construct the relationship, it is summarized using an intercept and a slope coefficient representing a line in the two-dimensional space, known as population regression line which is the best linear approximation of the relationship, summarized in Equation 1.
 
-**Equation 1** $$\{Y}=\beta_0+\beta_1\{x}+\epsilon$$
+**Equation 1** 
+
+$$\{Y}=\beta_0+\beta_1\{x}+\epsilon$$
 
 The intercept coefficient $(β_0)$ is the approximated response $(Y)$ when the predictor variable $(x)$ is zero, and the slope coefficient $(β_1)$ is the average effect of one-unit change in $x$ on $Y$. $ϵ$ is the error term that determines the distance of individual observations from the approximated regression line. But when the number of predictor variables are more than one, a linear relationship can still be established using a multi-dimensional space, where the meaning of coefficients associated with the independent variables are interpreted as the average effect on the dependent variable while keeping the other independent variables constant, as expressed in Equation 2, where there are $p(x_1…x_p)$ predictors. 
 
-**Equation 2** $$\{Y}=\beta_0+\beta_1\{x}_1+\beta_2\{x}_2+⋯+\beta_p\{x}_p+\epsilon$$
+**Equation 2** 
+
+$$\{Y}=\beta_0+\beta_1\{x}_1+\beta_2\{x}_2+⋯+\beta_p\{x}_p+\epsilon$$
 
 #### b. Generalized Additive Model
 Linear relationships are widely used simplified approximations that often result in poor inference and prediction as relationships are not always deducible simply to a multidimensional plane. The non-linearity associated with the relationships demands special attention when training regression models. Those non-linear relationships can be approximated using curves, splines, or step-functions, using polynomials of the predictor variables. Generalized Additive Model (GAM) is a special framework where the standard multiple linear models are extended to accommodate higher powers by allowing non-linear functions of each predictors, while maintaining additivity. Equation 3 represents a generic GAM where the linear component $β_jx_j$ is replaced by a non-linear function $f_j(x_j)$.
 
-**Equation 3** $$\{Y}=\beta_0+\{f}_1({x}_1)+{f}_2({x}_2)+⋯+{f}_p({x}_p)+\epsilon$$
+**Equation 3** 
+
+$${Y}=\beta_0+{f}_1({x}_1)+{f}_2({x}_2)+⋯+{f}_p({x}_p)+\epsilon$$
 
 The functions that are applied to the predictors do not need to be same, i.e., $f_1$ can represent a polynomial of degree 4, while $f_2$ can represent smoothing splines. GAMs are significantly better at approximating the true relationships that the response has with individual predictors and providing a regression result that accounts for all of them. These added complications also make it difficult to interpret the results from GAMs, even though the functions include smoothing parameters that prevent the results from being too biased to the training set. GAMs do not estimate regression coefficients like MLR; instead the interpretation of the regression results is made from partial influence plot of smoothing functions and the predictive scores of the model. For more details on these methods, please chapters 3 and 7 of (James, G., Witten, D., Hastie, T., Tibshirani, 2013)[^4].
 These models were evaluated using Leave One Out Cross-Validation (LOOCV) scores and their predictive ability were tested by calculating the mean square predictive error (MSPE), defined in Equation 4, when the models were used to predict the velocity values using the predictors from the test set.
 
-**Equation 4** $${MSPE}=\frac{1}{N}\sum_{i=1}^N(\widehat{{Y}_i}-{Y}_i)^2$$
+**Equation 4** 
+
+$${MSPE}=\frac{1}{N}\sum_{i=1}^N(\widehat{{Y}_i}-{Y}_i)^2$$
 
 Where $n$ is the total no. of observations, $\widehat{{Y}_i}$ is the predicted velocity value for the $i^{th}$ observation and $Y_i$ is the observed velocity value of the $i^{th}$ observation.
 
@@ -82,11 +90,15 @@ The correlation between the variables are shown in the heatmap in Figure 1 which
 Figure 1: Correlation Heatmap
 </b></p>
 
-**Equation 5** $$Y=β_0+β_1x_1+β_2x_2+β_3x_3+β_4x_4+β_5x_5$$
+**Equation 5** 
+
+$$Y=β_0+β_1x_1+β_2x_2+β_3x_3+β_4x_4+β_5x_5$$
 
 Using Boxcox method, we found the Boxcox transformation index $(λ)$ value to be near zero, that indicated a log transformation of the $Y$ variable. After transformation, the first order simple linear model was applied again and the trends in the residual’s vs fitted plot still showed a fanning out pattern, indicating the requirement to transform one of the predictor variables. From the scatterplot matrix after $Y$ transformation, we found that Population Density measure needed a log transformation. When that transformation was performed and fitted to the linear model (Equation 6) as before, the residuals had no pattern anymore.
    	      
-**Equation 6** $${Y'}=β_0+β_1x_1+β_2x_2+β_3x_3+β_4x_4+β_5{x'}_5$$
+**Equation 6** 
+
+$${Y'}=β_0+β_1x_1+β_2x_2+β_3x_3+β_4x_4+β_5{x'}_5$$
 Where $${Y'}=loglog(Y)$$ and $${x'}_5=loglog(x_5)$$
 
 The distribution of the transformed $Y$ variable (Figure 2) was slightly left-skewed with a minimum value of 2.639, a maximum value of 12.546, a mean of 7.889, and a median of 8.013. The value associated with the most count (23) was close to 7.75.
@@ -136,9 +148,13 @@ The appropriate subset of the predictors was selected by Adjusted R-squared, Aka
 
 Thus, three competing MLR models were derived using combinations of predictors for training the model: combination 1 (log.PopDensity), combination 2 (log.PopDensity and MeanTemp), and combination 3 (all predictors), which are expressed as Equations 7, 8, and 6, respectively.
 			
-**Equation 7** $${Y'}=β_0+β_5{x'}_5$$			    
+**Equation 7** 
 
-**Equation 8** $${Y'}=β_0+β_4x_4+β_5{x'}_5$$
+$${Y'}=β_0+β_5{x'}_5$$			    
+
+**Equation 8** 
+
+$${Y'}=β_0+β_4x_4+β_5{x'}_5$$
 
 #### a. Model Training
 The MLR models were compared using two validation-set approaches to estimate the test error rates, the Leave-One-Out Cross-Validation (LOOCV) and 5-Fold Cross-Validation. The test error rates using 2 validation-set approaches of each model are shown in the Table 3.
@@ -168,7 +184,9 @@ Figure 5: Summary of SLiM
 
 On the contrary, when the Generalized Additive Model, involving all the predictors (Equation 9), was applied to the training set to see the nonlinear effects for every covariate, the results (Table 4) depicted that all the selected and modified variables were statistically significant. As only ozone had an estimated degree of freedom 1, it suggested that no variable other than ozone described a linear relationship. This model was able to explain the variance associated with the data better, as it had higher R-squared value of 0.807, compared to the MLR model. Therefore, it was decided that the non-linear model was a better fit for the data.
 
-**Equation 9** $${Y'}=β_0+F_1(X_1 )+F_2(X_2)+F_3(X_3)+F_4(X_4)+F_5({X'}_5)$$ 
+**Equation 9** 
+
+$${Y'}=β_0+F_1(X_1 )+F_2(X_2)+F_3(X_3)+F_4(X_4)+F_5({X'}_5)$$ 
 
 **Table 4: Summary of GAM**
 
@@ -202,9 +220,13 @@ Figure 6: Results of comparing SLiM and GAM (Equation 9)
 #### a. Model Training
 As with the MLR models, three competing models were used in GAMs, given by Equations 10, 11, and 9.
 				
-**Equation 10** $${Y'}=β_0+F_5(X_5)$$			        
+**Equation 10** 
 
-**Equation 11** $${Y'}=β_0+F_4(X_4)+F_5({X'}_5)$$
+$${Y'}=β_0+F_5(X_5)$$			        
+
+**Equation 11** 
+
+$${Y'}=β_0+F_4(X_4)+F_5({X'}_5)$$
 
 These three models were compared in terms of cross-validation scores using both LOOCV and 5-fold cross-validation method. The results (Table 5) suggested that the model that included all the predictors had the lowest cross-validation score. Hence, that model was used to test prediction capabilities in the test set.
 
@@ -219,7 +241,7 @@ These three models were compared in terms of cross-validation scores using both 
 The partial influence plots were plotted (Figure 7), that depicts partial effects of the smoothing terms associated to each predictor on the response, where the solid line represents the mean of the estimated relationship and the shaded regions signify 95% confidence intervals.  It is evident that the smoothing terms for all the predictors captures the curved relations with velocity, apart from ozone which has a linear relationship. 
 
 <p align="center">
-<img width="700" src="https://github.com/khang4dang/Data-Driven-Analysis-of-Covid-19-Airbone-Diffusion-in-the-US/blob/main/images/Figure_7.png">
+<img width="800" src="https://github.com/khang4dang/Data-Driven-Analysis-of-Covid-19-Airbone-Diffusion-in-the-US/blob/main/images/Figure_7.png">
 </p>
 <p align="center"><b>
 Figure 7: Partial Influence Plot of the Smoothing Functions
@@ -228,7 +250,7 @@ Figure 7: Partial Influence Plot of the Smoothing Functions
 The GAM diagnostic (Figure 8) describes the model performance. From the Normal Q-Q plot, it is evident that the assumption of normally distributed residuals is deviated at the tails, which is corroborated by the Histogram of residuals, which is slightly left-skewed. The residual vs. linear prediction plot reveals that there are no significant patterns. The response vs. fitted values figure shows that the predicted values and the observed values are plotted in close clusters, without significant deviations. Hence, the generalized additive model is a better model in terms of fitting the data and predict velocity values.
 
 <p align="center">
-<img width="700" src="https://github.com/khang4dang/Data-Driven-Analysis-of-Covid-19-Airbone-Diffusion-in-the-US/blob/main/images/Figure_8.png">
+<img width="800" src="https://github.com/khang4dang/Data-Driven-Analysis-of-Covid-19-Airbone-Diffusion-in-the-US/blob/main/images/Figure_8.png">
 </p>
 <p align="center"><b>
 Figure 8: Selected GAM Diagnostics
